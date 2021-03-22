@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(../fonts/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Nova;
+  src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.hero .header {
+  width: 981px;
+  height: 160px;
+  margin: 0 auto;
+  font-family: Nova;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.footer {
+  width: 1280px;
+  height: 100px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #5d9bce;
+}
+.footer .logo {
+  width: 92px;
+  height: 42px;
+  margin: 20px;
+  background-image: url(../images/logo/logo-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer .copyright {
+  font-family: Gill;
+  font-size: 20px;
+  display: flex;
+  margin: auto;
+  color: #fff;
+}
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.line1 {
+  background-color: #333;
+  width: 980px;
+  height: 2px;
+  margin: 10px auto;
+}
+
+.line2 {
+  margin: 10px auto 10px 270px;
+  background-color: #333;
+  width: 200px;
+  height: 2px;
+}
+
+.line3 {
+  margin: auto 30px;
+  background-color: #333;
+  width: 200px;
+  height: 2px;
+}
+
+.content {
+  height: 400px;
+  width: 980px;
+  display: flex;
+  margin: 60px auto;
+}
+.content .image1 {
+  display: flex;
+  padding-right: 100px;
+  height: 422px;
+  min-width: 400px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content .form {
+  margin: 0 40px;
+}
+.content .submit {
+  display: flex;
+  margin: 80px 30px;
+  height: 60px;
+  width: 160px;
+  color: #fff;
+  font-family: Gill;
+  background-color: #5d9bce;
+  justify-content: center;
+  align-items: center;
+}
+.content h1 {
+  font-family: Nova;
+  font-size: 30px;
+  margin: auto 30px;
+}
+.content p {
+  width: 290;
+  font-family: Gill;
+  font-size: 16px;
+  margin: auto 30px;
+}
+
+.info {
+  margin: 40px auto 100px 240px;
+}
+.info p {
+  width: 290;
+  font-family: Gill;
+  font-size: 16px;
+  margin: auto 30px;
+}
